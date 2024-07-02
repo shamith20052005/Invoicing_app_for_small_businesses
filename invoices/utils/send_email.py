@@ -9,7 +9,7 @@ PATH = "media/"
 
 
 def get_template_msg(contact_name, multiple=False):
-    message = "las últimas facturas" if multiple else "la última factura"
+    message = "the latest invoices" if multiple else "the latest invoice"
 
     html = f"""\
         <!DOCTYPE html>
@@ -18,15 +18,15 @@ def get_template_msg(contact_name, multiple=False):
             <meta charset="utf-8">
         </head>
         <body>
-        <p>Buenas {contact_name},<br><br>Te adjunto en este correo {message}.<br><br>Un saludo.</p>
+        <p>Hello {contact_name},<br><br>I am attaching {message} in this email.<br><br>Best regards.</p>
         </body>
         </html>
         """
 
     text = f"""\
-        Buenas {contact_name},\n
-        Te adjunto en este correo {message}.\n
-        Un saludo.\n
+        Hello {contact_name},\n
+        I am attaching {message} in this email.\n
+        Best regards.\n
         """
 
     return html, text
