@@ -32,4 +32,13 @@ This project is set up like a standard Django project. Follow these steps to run
 7. **Create a superuser:** `python manage.py createsuperuser`
 8. **Start the development server:** `python manage.py runserver`
 
+## IMAGES OF MY WEBSITE
+
+Here are some screenshots of the application:
+
+![Invoice Creation Page](Website_images_for_ReadMe/create_invoice.png)
+![Invoice List Page](Website_images_for_ReadMe/view_invoices.png)
+![Customer Creation Page](Website_images_for_ReadMe/add_customer.png)
+![Customer List Page](Website_images_for_ReadMe/view_customers.png)
+![Generated PDF Invoice](Website_images_for_ReadMe/bill_pdf.png)
 
