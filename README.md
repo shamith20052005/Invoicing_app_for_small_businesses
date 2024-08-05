@@ -36,9 +36,14 @@ This project is set up like a standard Django project. Follow these steps to run
 
 Here are some screenshots of the application:
 
+**Invoice Creation Page**
 ![Invoice Creation Page](Website_images_for_ReadMe/create_invoice.png)
+**Invoice List Page**
 ![Invoice List Page](Website_images_for_ReadMe/view_invoices.png)
+**Customer Creation Page**
 ![Customer Creation Page](Website_images_for_ReadMe/add_customer.png)
+**Customer List Page**
 ![Customer List Page](Website_images_for_ReadMe/view_customers.png)
+**Generated PDF Invoice**
 ![Generated PDF Invoice](Website_images_for_ReadMe/bill_pdf.png)
 
